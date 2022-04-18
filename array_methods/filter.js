@@ -68,3 +68,48 @@ const filter5 = _.filter(products, function (product) {
 });
 // при этом на выходе получаем массив
 console.log("filter5", filter5);
+
+//
+
+const products2 = [
+  {
+    id: 1,
+    name: "milk",
+    price: "2",
+  },
+  {
+    id: 2,
+    name: "bread",
+    price: "1",
+  },
+  {
+    id: 3,
+    name: "meat",
+    price: "3",
+  },
+];
+
+// с использованием базового инклюд
+function searchProduct(products2, searchValue) {
+  return _.filter(products2, function (product) {
+    const hasValue = product.name;
+    return hasValue.includes(searchValue);
+  });
+}
+
+const result1 = searchProduct(products2, "milk");
+
+console.log("result1", result1);
+
+// с использованием лодашевского инклюд
+function searchProduct(products2, searchValue) {
+  return _.filter(products2, function (product) {
+    const hasValue = product.name;
+    return _.includes(hasValue, searchValue);
+  });
+}
+
+const result2 = searchProduct(products2, "ea");
+console.log("result2", result2);
+
+
