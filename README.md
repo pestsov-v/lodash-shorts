@@ -21,6 +21,8 @@
   - [Работа со строками](#работа-со-строками)
     - [_.toLower](#_tolower)
     - [_.toUpper](#_toupper)
+    - [_.split](#_split)
+    - [_.join](#_join)
 
 ## Работа с массивами
 
@@ -167,3 +169,15 @@ _.chain(users)
 В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу toUpperCase()
 
 Файл с примерами [_.register_one](transform_string/register_one.js)
+
+### _.split
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу split()
+
+Файл с примерами [_.split_and_join](transform_string/split_and_join.js)
+
+### _.join
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу join()
+
+Файл с примерами [_.split_and_join](transform_string/split_and_join.js)

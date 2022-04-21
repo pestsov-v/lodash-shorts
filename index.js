@@ -11,4 +11,5 @@
 // require("./array_methods/get_part_of_array");
 
 // STRING
-require("./transform_string/register_one");
+// require("./transform_string/register_one");
+require("./transform_string/split_and_join");
