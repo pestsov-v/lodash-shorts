@@ -22,11 +22,11 @@ const isSomeActive = _.some(users, function (user) {
 
 console.log("isSomeActive", isSomeActive);
 
-// some с сахаром. Вернул true поскольку есть хоть один активный пользователь
-const isSomeActive2 = _.some(users, { isActive: true });
+// some с сахаром. Вернул true поскольку есть хоть один активный пользователь. В синтаксическом сахаре не работает условия, для этого необходимо писать функцию.
+const isSomeActive2 = _.some(users, { isActive: true, likes: 110 });
 console.log("isSomeActive2", isSomeActive2);
 
-// every. Вернул true поскольку не все пользователи активны 
+// every. Вернул true поскольку не все пользователи активны
 const isAllActive = _.every(users, function (user) {
   return user.isActive === true;
 });
