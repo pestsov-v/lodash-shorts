@@ -8,4 +8,10 @@
 // require("./array_methods/sort");
 // require("./array_methods/group");
 // require("./array_methods/chain");
-require("./array_methods/get_part_of_array");
+// require("./array_methods/get_part_of_array");
+
+// STRING
+// require("./transform_string/register_one");
+// require("./transform_string/split_and_join");
+// require("./transform_string/capitalize");
+require("./transform_string/register_two");

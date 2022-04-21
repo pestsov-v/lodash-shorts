@@ -17,9 +17,19 @@
     - [_.head](#_head)
     - [_.tail](#_tail)
     - [_.last](#_last)
-    - [_.last](#_last-1)
+    - [_.initial](#_initial)
+  - [Работа со строками](#работа-со-строками)
+    - [_.toLower](#_tolower)
+    - [_.toUpper](#_toupper)
+    - [_.split](#_split)
+    - [_.join](#_join)
+    - [_.capitalize](#_capitalize)
+    - [_.camelCase()](#_camelcase)
+    - [_.camelCase()](#_camelcase-1)
 
 ## Работа с массивами
+
+Рассмотрены методы: each, map, filter, find, without, reject, some, every, orderBy, groupBy, chain, head, tail, last, initial
 
 ### _.each
 
@@ -143,8 +153,52 @@ _.chain(users)
 
 Файл с примерами [_.get_part_of_array](array_methods/get_part_of_array.js)
 
-### _.last
+### _.initial
 
 Возвращает все элементы массива кроме последнего элемента, по сути является аналогом arr.slice(0, -1).
 
 Файл с примерами [_.get_part_of_array](array_methods/get_part_of_array.js)
+
+## Работа со строками
+
+### _.toLower
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу toLowerCase()
+
+Файл с примерами [_.register_one](transform_string/register_one.js)
+
+### _.toUpper
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу toUpperCase()
+
+Файл с примерами [_.register_one](transform_string/register_one.js)
+
+### _.split
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу split()
+
+Файл с примерами [_.split_and_join](transform_string/split_and_join.js)
+
+### _.join
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу join()
+
+Файл с примерами [_.split_and_join](transform_string/split_and_join.js)
+
+### _.capitalize
+
+Метод делающий первый элемент строки в Upper case, в JavaScript такого метода нет.
+
+Файл с примерами [_.capitalize](transform_string/capitalize.js)
+
+### _.camelCase()
+
+Переводит строку в camelCase формат (toCamelCaseFormat)
+
+Файл с примерами [_.capitalize](transform_string/register_two.js)
+
+### _.camelCase()
+
+Переводит строку в snakeCase формат (to_snake_case_format)
+
+Файл с примерами [_.capitalize](transform_string/register_two.js)
