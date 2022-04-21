@@ -17,9 +17,14 @@
     - [_.head](#_head)
     - [_.tail](#_tail)
     - [_.last](#_last)
-    - [_.last](#_last-1)
+    - [_.initial](#_initial)
+  - [Работа со строками](#работа-со-строками)
+    - [_.toLower](#_tolower)
+    - [_.toUpper](#_toupper)
 
 ## Работа с массивами
+
+Рассмотрены методы: each, map, filter, find, without, reject, some, every, orderBy, groupBy, chain, head, tail, last, initial
 
 ### _.each
 
@@ -143,8 +148,22 @@ _.chain(users)
 
 Файл с примерами [_.get_part_of_array](array_methods/get_part_of_array.js)
 
-### _.last
+### _.initial
 
 Возвращает все элементы массива кроме последнего элемента, по сути является аналогом arr.slice(0, -1).
 
 Файл с примерами [_.get_part_of_array](array_methods/get_part_of_array.js)
+
+## Работа со строками
+
+### _.toLower
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу toLowerCase()
+
+Файл с примерами [_.register_one](transform_string/register_one.js)
+
+### _.toUpper
+
+В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу toUpperCase()
+
+Файл с примерами [_.register_one](transform_string/register_one.js)

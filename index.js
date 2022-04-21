@@ -8,4 +8,7 @@
 // require("./array_methods/sort");
 // require("./array_methods/group");
 // require("./array_methods/chain");
-require("./array_methods/get_part_of_array");
+// require("./array_methods/get_part_of_array");
+
+// STRING
+require("./transform_string/register_one");
