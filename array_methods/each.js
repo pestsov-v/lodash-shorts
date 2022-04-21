@@ -1,15 +1,15 @@
 const _ = require("lodash");
 
 [1, 2].forEach(function (item) {
-  console.log("javascript", item);
+  console.log("javascript: ", item);
 });
 
 _.each([1, 2], function (item) {
-  console.log("lodash", item);
+  console.log("lodash: ", item);
 });
 
 _.each([1, 2], function (item, index) {
-  console.log("lodash", item, index);
+  console.log("lodash: ", item, index);
 });
 
 // Each можно вызывать на объекты, в отличии от чистого javascript

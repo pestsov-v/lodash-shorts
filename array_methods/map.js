@@ -41,7 +41,7 @@ console.log("ids", ids);
 
 // синтаксический сахар
 const syntaxSugar = _.map(users, "id");
-console.log("syntaxSugar", syntaxSugar);
+console.log("syntaxSugar: ", syntaxSugar);
 
 // получить массив из объекта:
 const usersObj = {
@@ -63,4 +63,4 @@ const userObjArray = _.map(usersObj, function (user, key) {
   return Number(key);
 });
 
-console.log("userObjArray", userObjArray);
+console.log("userObjArray: ", userObjArray);

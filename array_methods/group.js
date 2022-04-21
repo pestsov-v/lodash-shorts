@@ -34,14 +34,14 @@ const groupBy = function (list, prop) {
 };
 
 const result1 = groupBy(users, "isActive");
-console.log("result1", result1);
+console.log("result1: ", result1);
 
 // groupBy lodash
 const result2 = _.groupBy(users, "isActive");
-console.log("result2", result2);
+console.log("result2: ", result2);
 
 // groupBy lodash with function
 const result3 = _.groupBy(users, function (user) {
   return user.likes;
 });
-console.log("result3", result3);
+console.log("result3: ", result3);

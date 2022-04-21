@@ -14,7 +14,7 @@ const users = [
     age: 28,
   },
   {
-    id: 2,
+    id: 3,
     name: "Mike",
     isActive: false,
     age: 37,
@@ -31,7 +31,7 @@ const getYoungestUserMessage = function (users) {
 };
 
 const result1 = getYoungestUserMessage(users);
-console.log("result1", result1);
+console.log("result1: ", result1);
 
 // review code who is stand in high for chain method
 const getYoungestUserMessageWithChain = function (users) {
@@ -46,4 +46,4 @@ const getYoungestUserMessageWithChain = function (users) {
 };
 
 const result2 = getYoungestUserMessageWithChain(users);
-console.log("result2", result2);
+console.log("result2: ", result2);
