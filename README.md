@@ -24,6 +24,8 @@
     - [_.split](#_split)
     - [_.join](#_join)
     - [_.capitalize](#_capitalize)
+    - [_.camelCase()](#_camelcase)
+    - [_.camelCase()](#_camelcase-1)
 
 ## Работа с массивами
 
@@ -188,3 +190,15 @@ _.chain(users)
 Метод делающий первый элемент строки в Upper case, в JavaScript такого метода нет.
 
 Файл с примерами [_.capitalize](transform_string/capitalize.js)
+
+### _.camelCase()
+
+Переводит строку в camelCase формат (toCamelCaseFormat)
+
+Файл с примерами [_.capitalize](transform_string/register_two.js)
+
+### _.camelCase()
+
+Переводит строку в snakeCase формат (to_snake_case_format)
+
+Файл с примерами [_.capitalize](transform_string/register_two.js)
