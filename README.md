@@ -23,6 +23,7 @@
     - [_.toUpper](#_toupper)
     - [_.split](#_split)
     - [_.join](#_join)
+    - [_.capitalize](#_capitalize)
 
 ## Работа с массивами
 
@@ -181,3 +182,9 @@ _.chain(users)
 В принципе единственное решение это по сути написание этого метода в цепочке `_.chain`. В остальном аналогично JavaScript методу join()
 
 Файл с примерами [_.split_and_join](transform_string/split_and_join.js)
+
+### _.capitalize
+
+Метод делающий первый элемент строки в Upper case, в JavaScript такого метода нет.
+
+Файл с примерами [_.capitalize](transform_string/capitalize.js)

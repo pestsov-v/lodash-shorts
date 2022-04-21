@@ -12,4 +12,5 @@
 
 // STRING
 // require("./transform_string/register_one");
-require("./transform_string/split_and_join");
+// require("./transform_string/split_and_join");
+require("./transform_string/capitalize");
