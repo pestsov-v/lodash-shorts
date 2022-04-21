@@ -13,6 +13,7 @@
     - [_.every](#_every)
     - [_.orderBy](#_orderby)
     - [_.groupBy](#_groupby)
+    - [_.chain](#_chain)
 
 ## Работа с массивами
 
@@ -94,3 +95,27 @@ _.orderBy(countries, ["country", "city"], ["desc", "asc"])
 
 Файл с примерами [_.groupBy](array_methods/group.js)
 
+### _.chain
+
+По сути метод chain представляет из себя цепочку методов, где последовательно вкладывая различные методы, на каждом этапе данные обрабатываются и передаются в следующий skope. 
+Метод chain всегда начинается словом "сhain" и заканчивается "value", а в середине может быть n-нное количество методов, которые эти данные трансформируют:
+```
+_.chain([arr]).value()
+```
+
+Пример:
+```
+_.chain(users)
+    .filter("isActive")
+    .orderBy(["age"])
+    .map(function (user) {
+      return user.name + " это " + user.age;
+    })
+    .head()
+    .value();
+};
+```
+
+Используя _.chain не нужно понимать весь код целиком. 
+
+Файл с примерами [_.chain](array_methods/chain.js)

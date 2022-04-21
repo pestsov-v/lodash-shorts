@@ -6,4 +6,5 @@
 // require("./array_methods/killed_elements");
 // require("./array_methods/every_and_some");
 // require("./array_methods/sort");
-require("./array_methods/group");
+// require("./array_methods/group");
+require("./array_methods/chain");
