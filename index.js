@@ -17,4 +17,5 @@
 // require("./transform_string/register_two");
 
 // ADVANCED FUNCTIONS
-require("./advanced_functions/randomize");
+// require("./advanced_functions/randomize");
+require("./advanced_functions/uniqueId");
