@@ -14,4 +14,7 @@
 // require("./transform_string/register_one");
 // require("./transform_string/split_and_join");
 // require("./transform_string/capitalize");
-require("./transform_string/register_two");
+// require("./transform_string/register_two");
+
+// ADVANCED FUNCTIONS
+require("./advanced_functions/randomize");

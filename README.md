@@ -26,6 +26,8 @@
     - [_.capitalize](#_capitalize)
     - [_.camelCase()](#_camelcase)
     - [_.camelCase()](#_camelcase-1)
+  - [Продвинутые функции](#продвинутые-функции)
+    - [_.random](#_random)
 
 ## Работа с массивами
 
@@ -202,3 +204,12 @@ _.chain(users)
 Переводит строку в snakeCase формат (to_snake_case_format)
 
 Файл с примерами [_.capitalize](transform_string/register_two.js)
+
+## Продвинутые функции
+
+### _.random
+
+Используется, когда нужно создать случайное значение. При использовании стандартного Math.random генерится большое количество символов после запятой, что не всегда является удобно. 
+
+
+Файл с примерами [_.randomize](advanced_functions/randomize.js)
