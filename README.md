@@ -30,6 +30,7 @@
     - [_.random](#_random)
     - [_.uniqueId](#_uniqueid)
     - [Создание одномерных массивов](#создание-одномерных-массивов)
+    - [Удаление пустых элементов](#удаление-пустых-элементов)
 
 ## Работа с массивами
 
@@ -227,3 +228,10 @@ _.chain(users)
 - Метод flattenDeep делает тоже самое что и flatten, но результатом будет всегда одномерный массив.
 
 Файл с примерами [_.plate_methods](advanced_functions/plate_methods.js)
+
+### Удаление пустых элементов
+
+Метод _.compact удаляет из массива все falsy элементы. Falsy элементы - это false, null, undefined.
+
+Файл с примерами [_.empty_elements](advanced_functions/empty_elements.js)
+
