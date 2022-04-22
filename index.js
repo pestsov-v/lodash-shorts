@@ -18,4 +18,5 @@
 
 // ADVANCED FUNCTIONS
 // require("./advanced_functions/randomize");
-require("./advanced_functions/uniqueId");
+// require("./advanced_functions/uniqueId");
+require("./advanced_functions/plate_methods");
